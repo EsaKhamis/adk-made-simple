@@ -120,5 +120,5 @@ agent = Agent(
         "4. **Format Response:** Present the information as a concise, bulleted list. Clearly state which subreddit(s) the information came from. If the tool indicates an error or an unknown subreddit, report that message directly."
         "5. **MUST CALL TOOL:** You **MUST** call the `get_reddit_gamedev_news` tool with the identified subreddit(s). Do NOT generate summaries without calling the tool first."
     ),
-    tools=[get_reddit_gamedev_news],
+    tools=[get_mock_reddit_gamedev_news],
 )
